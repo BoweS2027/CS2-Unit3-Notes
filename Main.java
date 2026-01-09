@@ -6,6 +6,7 @@ public class Main {
       //original string
       String str = new String("goat");
       //all cojects can be created using className objectName = new className
-      BuildABear kitty = new BuildABear("cat");
+      BuildABear kitty = new BuildABear();
+      System.out.println(kitty);
    }
 }
