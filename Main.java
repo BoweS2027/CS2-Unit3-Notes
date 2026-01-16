@@ -21,6 +21,11 @@ public class Main {
       //calling void methods: objectName.methodName();
       kitty.setName("doggully");
       // setters (mutators) changed values. let'see the effects:
+      // STATIC variables & methods belong to a class
+      // get called using the Class name, Not an object
+      BuildABear.showStore();
+      double randNum = Math.random();
+      //the main method is static bc there is. only one coppy of it per program
 
    } //end main
 } // emd main class

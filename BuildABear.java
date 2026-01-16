@@ -7,6 +7,9 @@ public class BuildABear {
     private double price;
     private boolean hasSound;
     //encapculation: keeping variables private (they can't be directly accessed outside of this class)
+    // static variables belong to a general class
+    private static String store location = "landyland";
+    private static int inventoryCount location = 50;
 
     public BuildABear() {
         this.type = "dog"; // WE PICK the initial values!
@@ -45,4 +48,8 @@ public String toString(){
     String state = "BuildABear[" + type + ", " + name + ", " + fillLevel + ", " + price + "]";
     return state;
 }
+public static void showStore() {
+    System.out.println("welcome to " + storeLocation + " Build a Bear Workshop!");
+    
 }
+} //end class
